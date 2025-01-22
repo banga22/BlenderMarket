@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Семантическая разметка в HTML5</title>
-    </head>
-    <body>
-        <article>
-            <h2>Lorem ipsum</h2>
-            <div>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
-                euismod tincidunt ut laoreet dolore magna aliquam erat ...
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш интернет-магазин!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Главная страница</h2>
+            <p>Здесь вы найдете лучшие товары по отличным ценам.</p>
+        </section>
+        <section id="products">
+            <h2>Наши товары</h2>
+            <div class="product">
+                <img src="product1.jpg" alt="Товар 1">
+                <h3>Товар 1</h3>
+                <p>Описание товара 1</p>
+                <button>Купить</button>
             </div>
-            <div>
-                <h3>Комментарии</h3>
-                <article>
-                    <h4>Неплохо</h4>
-                    <p>Норм статья</p>
-                </article>
-                <article>
-                    <h4>Бред</h4>
-                    <p>Мне не понравилось...</p>
-                </article>
-                <article>
-                    <h4>Непонятно</h4>
-                    <p>О чем вообще все это?</p>
-                </article>
-            </div>
-        </article>
-    </body>
+            <!-- Добавьте больше товаров по аналогии -->
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Интернет-магазин. Все права защищены.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
 </html>
