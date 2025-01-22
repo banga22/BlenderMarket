@@ -51,3 +51,11 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.gain-center{
+  transition: 1s; /* Время эффекта */
+  text-align: center; 
+}
+.gain-center:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
