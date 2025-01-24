@@ -22,10 +22,12 @@ nav ul p {
     margin: 0 1em;
 }
 
-nav ul p a {
-    text-decoration: none;
+.nav ul p a{
+  transition: 1s; /* Время эффекта */
+  text-align: center; 
+  text-decoration: none;
+  color: #000;    
 }
-
 main {
     padding: 2em;
 }
@@ -51,12 +53,8 @@ footer {
     bottom: 0;
 }
 
-.gain-center{
-  transition: 1s; /* Время эффекта */
-  text-align: center; 
-  text-decoration: none;
-}
+
+
 nav ul p:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
-  color: #000;
 }
