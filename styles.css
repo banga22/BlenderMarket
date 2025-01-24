@@ -27,6 +27,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover{
+    transform: scale(1.2);
+}
+
 main {
     padding: 2em;
 }
