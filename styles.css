@@ -20,10 +20,10 @@ nav ul {
 nav ul p {
     display: inline;
     margin: 0 1em;
+    color: #fff;
 }
 
 nav ul p a {
-    color: #fff;
     text-decoration: none;
 }
 
