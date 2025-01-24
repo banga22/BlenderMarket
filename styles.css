@@ -17,17 +17,16 @@ nav ul {
     padding: 0;
 }
 
-nav ul p {
+nav ul li {
     display: inline;
     margin: 0 1em;
 }
 
-nav ul p a{
-  transition: 1s; /* Время эффекта */
-  text-align: center; 
-  text-decoration: none;
-  color: #000;    
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
+
 main {
     padding: 2em;
 }
@@ -51,10 +50,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-
-
-nav ul p:hover {
-  transform: scale(1.2); /* Увеличиваем масштаб */
 }
