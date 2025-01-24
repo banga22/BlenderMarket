@@ -57,5 +57,5 @@ footer {
   text-align: center; 
 }
 .gain-center:hover {
-  transform: scale(50); /* Увеличиваем масштаб */
+  transform: scale(1.2); /* Увеличиваем масштаб */
 }
