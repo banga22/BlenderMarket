@@ -56,7 +56,7 @@ footer {
   transition: 1s; /* Время эффекта */
   text-align: center; 
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 nav ul p:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
