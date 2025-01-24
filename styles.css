@@ -22,7 +22,7 @@ nav ul p {
     margin: 0 1em;
 }
 
-.nav ul p a{
+nav ul p a{
   transition: 1s; /* Время эффекта */
   text-align: center; 
   text-decoration: none;
