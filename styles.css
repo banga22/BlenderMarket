@@ -20,7 +20,6 @@ nav ul {
 nav ul p {
     display: inline;
     margin: 0 1em;
-    color: #000;
 }
 
 nav ul p a {
@@ -56,6 +55,7 @@ footer {
   transition: 1s; /* Время эффекта */
   text-align: center; 
   text-decoration: none;
+  color: #fff;
 }
 nav ul p:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
