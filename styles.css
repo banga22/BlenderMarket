@@ -47,10 +47,6 @@ main {
     position: relative;
 }
 
-.product img {
-    max-width: 100%;
-}
-
 footer {
     background-color: #333;
     color: #fff;
@@ -58,7 +54,7 @@ footer {
     padding: 50px;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 10px;
     bottom: 0;
 }
 
@@ -85,8 +81,16 @@ img {
   display: block;
 }
 
-/* Navigation item styles */
-div.sim-slider-arrow-left,
+div.sim-slider-arrow-left{
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+}
+
+
 div.sim-slider-arrow-right {
   width: 22px;
   height: 40px;
