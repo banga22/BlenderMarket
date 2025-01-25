@@ -35,11 +35,14 @@ main {
     padding: 2em;
 }
 
-.sim-slider {
+.product {
     border: 1px solid #ccc;
     padding: 1em;
     margin: 1em 0;
     background-color: #fff;
+    
+}
+.sim-slider{
     position: relative;
 }
 
