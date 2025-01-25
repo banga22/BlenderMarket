@@ -35,11 +35,12 @@ main {
     padding: 2em;
 }
 
-.product {
+.sim-slider {
     border: 1px solid #ccc;
     padding: 1em;
     margin: 1em 0;
     background-color: #fff;
+    position: relative;
 }
 
 .product img {
@@ -58,11 +59,6 @@ footer {
 
 img {
   width: 100%;  !important;
-}
-
-/* General styles */
-.sim-slider {
-  position: relative;
 }
 
 .sim-slider-list {
