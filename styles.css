@@ -82,7 +82,7 @@ img {
 }
 
 div.sim-slider-arrow-left{
-  width: 22px;
+  width: auto;
   height: 40px;
   position: absolute;
   cursor: pointer;
@@ -92,7 +92,7 @@ div.sim-slider-arrow-left{
 
 
 div.sim-slider-arrow-right {
-  width: 22px;
+  width: auto;
   height: 40px;
   position: absolute;
   cursor: pointer;
@@ -115,11 +115,11 @@ div.sim-slider-arrow-right {
 }
 
 div.sim-slider-arrow-left:hover {
-  opacity: 1.2;
+  opacity: 1;
 }
 
 div.sim-slider-arrow-right:hover {
-  opacity: 1.2;
+  opacity: 1;
 }
 
 div.sim-slider-dots {
