@@ -58,7 +58,9 @@ footer {
 }
 
 img {
-  width: 100%;  !important;
+  width: 50%;
+  heigh: auto;
+  object-fit: contain;
 }
 
 .sim-slider-list {
