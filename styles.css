@@ -36,6 +36,7 @@ main {
 }
 
 .product {
+    width: 1000;
     border: 1px solid #ccc;
     padding: 1em;
     margin: 1em 0;
