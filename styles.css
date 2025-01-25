@@ -61,13 +61,11 @@ footer {
 }
 
 img {
-  width: 50%;
-  heigh: 50%;
+  width: 100%;
+  heigh: auto;
 }
 
 .sim-slider-list {
-  width: 50%;
-  heigh: 50%;
   margin: 0;
   padding: 0;
   list-style-type: none;
