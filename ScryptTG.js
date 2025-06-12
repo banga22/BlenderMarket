@@ -2,7 +2,7 @@
 function sendDataToTelegram(formData) {
     const botToken = '7871514395:AAEKXYC0n8rbfPaWmIuYjstEkf7psDgN1tQ'; // Токен вашего бота
     const chatId = '1257092596'; // ID получателя (пользователя)
-    const apiUrl = `https://api.telegram.org/bot${7871514395:AAEKXYC0n8rbfPaWmIuYjstEkf7psDgN1tQ}/sendMessage`; // URL для отправки сообщения
+    const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`; // URL для отправки сообщения
 
     // Формируем сообщение в формате HTML
     const message = `
